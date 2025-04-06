@@ -3,78 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pruebas tec 3</title>
-    <!-- comentario -->
-     <link rel="stylesheet" href="estilos.css">
+    <title>Valentina - Página personal</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-<div>
-    <h1>Yo soy un humano</h1>
-    <img src="https://images.ecestaticos.com/5-pY2GHFe8CZbaPTsgFpd2VR2sc=/77x32:1167x599/600x315/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fc41%2F015%2Fe4c%2Fc41015e4c8d3eab7747b74607e535805.jpg" alt="et">
-    <h1>Me llamo valentina</h1>
-    <p>Tengo 20 años y vivo en bs as capital, me gusta el arte, las series, escuchar musica y leer
-    </p>
-   
-<h3> Mis series favoritas</h3>
-<ul class="lista"> 
-    <li>fullmetal alquimist broderhood</li>
-    <li>one piece</li>
-    <li>jojos bizarre adventure</li>
-    <li>mob psycho</li>
-    <li>kusuriya no hitorigoto</li>
-</ul>   
-    
-<section id="formulario">
-    <h2>contacto</h2>
-    <form action="" method="post">
-    <div>
-        <label>
-            Nombre
-        </label>
-            <input type="text" name="nombre" required>
-        
-    </div>
-    <div>
-        <label>
-            Email
-        </label>  
-            <input type="email" name="email" required>
-        
-    </div>
-    <div>
-        <label>
-            Fecha de nacimiento
-        </label>  
-            <input type="date" name="fechanac" required>
-     
-    </div>
-    <div>
-        <label>
-            Ayudame a mejorar mi pagina
-        </label>
-            <textarea name="mensaje"required ></textarea>
-        
-    </div>
-    <div>
-        <label>
-            <input type="checkbox" value="si">
-            me gusto la web te voy a buscar en ig
-        </label>
-    </div>
-    <div>
-        <label>
-            <input type="submit" value="enviar feedback">
-        </label>
-    </div>
-    </form>
-</section>  
-</div>
+    <main class="container">
+        <header>
+            <h1>¡Hola! Soy Valentina</h1>
+            <img src="https://images.ecestaticos.com/5-pY2GHFe8CZbaPTsgFpd2VR2sc=/77x32:1167x599/600x315/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fc41%2F015%2Fe4c%2Fc41015e4c8d3eab7747b74607e535805.jpg" alt="ET saludando">
+        </header>
 
-<!-- 
-ejercitacion:
-presentacion personal en HTML
-- h1, p, a, ul, div, img
-- selectores para modificar textos, fondos y dimensiones -->
+        <section class="descripcion">
+            <h2>Sobre mí</h2>
+            <p>Tengo 20 años y vivo en Buenos Aires Capital. Me gusta el arte, las series, escuchar música y leer.</p>
+        </section>
 
+        <section class="series">
+            <h3>Mis series favoritas</h3>
+            <ul>
+                <li>Fullmetal Alchemist: Brotherhood</li>
+                <li>One Piece</li>
+                <li>JoJo's Bizarre Adventure</li>
+                <li>Mob Psycho 100</li>
+                <li>Kusuriya no Hitorigoto</li>
+            </ul>
+        </section>
+
+        <section class="formulario">
+            <h2>Contacto</h2>
+            <form action="" method="post">
+                <label>Nombre
+                    <input type="text" name="nombre" required>
+                </label>
+                <label>Email
+                    <input type="email" name="email" required>
+                </label>
+                <label>Fecha de nacimiento
+                    <input type="date" name="fechanac" required>
+                </label>
+                <label>Ayudame a mejorar mi página
+                    <textarea name="mensaje" required></textarea>
+                </label>
+                <label class="checkbox">
+                    <input type="checkbox" value="si">
+                    Me gustó la web, te voy a buscar en IG
+                </label>
+                <input type="submit" value="Enviar feedback">
+            </form>
+        </section>
+    </main>
 </body>
 </html>
